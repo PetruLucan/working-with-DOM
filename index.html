@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <script type="text/javascript" src="./function-exercises.js"></script> -->
+</head>
+
+<body>
+    <input id="searchInput" type="text" placeholder="Name search..." />
+    <ol id="nameList">
+        <!--  -->
+    </ol>
+    <input id="nameInput" type="text" placeholder="Name search..." />
+    <input id="passInput" type="password" placeholder="Password" />
+    <button id="resetBtn"> Reset </button>
+    <!-- <button class="btn">Submit</button> -->
+    <!-- <button id="deleteButton" class="btn bum">Delete</button> -->
+    <!-- <div class="trafic-light green">
+        <div class="light" id="red"></div>
+        <div class="light" id="yellow"></div>
+        <div class="light" id="green"></div>
+    </div>
+    <br/>
+
+    <div class="card">
+        <h1> Batman & Robin </h1>
+        <hr/>
+        <p> The most amazing super-hero team in the history of heroes!</p>
+    </div> -->
+       
+    <style>
+        .card {
+            width: 500px;
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .card.round {
+            border-radius: 50%;
+            width: 200px;
+        }
+
+        .card.round h1 {
+            padding: 40px 0;
+        }
+
+        .card.round p,
+        .card.round hr {
+            display: none
+        }
+    </style>
+    <style>
+        .trafic-light.yellow #red {
+            background-color: white;
+        }
+
+        .trafic-light.yellow #yellow {
+            background-color: yellow;
+        }
+
+        .trafic-light.yellow #green {
+            background-color: white;
+        }
+
+        .trafic-light.green #red,
+        .trafic-light.green #yellow,
+        .trafic-light #yellow,
+        .trafic-light #green {
+            background-color: white;
+        }
+
+        .trafic-light.green #green {
+            background-color: green;
+        }
+
+        .light {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+        }
+
+        #red {
+            background-color: red;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+
+        #green {
+            background-color: green;
+        }
+    </style>
+    <script type="text/javascript" src="./dom.js"></script> 
+</body>
+
+</html>
